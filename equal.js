@@ -1,0 +1,12 @@
+// == vs === 
+// == equal to. check only value
+// === equal type and equal value. check value and type
+
+const first = 2;
+const second = '2';
+if(first === second){
+    console.log('Condition is true');
+}
+else{
+    console.log("Condition is false");
+}
